@@ -4854,7 +4854,7 @@ a img {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #000000, #2c2a53);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0d0e10, #393267);
+    /* background: linear-gradient(to right, #0d0e10, #393267); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     animation: colorchange 120s;
@@ -5214,7 +5214,6 @@ a img {
 .exp_experience {
     background-image: linear-gradient(45deg, black, rgb(56, 27, 98), black);
     margin: 20px;
-    padding: 20px;
     width: 90%;
     display: grid;
     grid-template-columns: .2fr .8fr;
