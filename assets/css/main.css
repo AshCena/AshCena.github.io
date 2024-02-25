@@ -5246,6 +5246,68 @@ a img {
 }
 
 
+
+@keyframes colorchanges {
+    0% {
+      background:linear-gradient(45deg, #178e0b, #292497);
+    }
+    5% {
+        background:linear-gradient(65deg, #178e0b, #292497);
+    }
+    10% {
+        background:linear-gradient(85deg, #178e0b, #292497);
+    }
+    15% {
+        background:linear-gradient(105deg, #178e0b, #292497);
+    }
+    20% {
+        background:linear-gradient(125deg, #178e0b, #292497);
+    }
+    25% {
+        background:linear-gradient(145deg, #178e0b, #292497);
+    }
+    30% {
+        background:linear-gradient(165deg, #178e0b, #292497);
+    }
+    35% {
+        background:linear-gradient(185deg, #178e0b, #292497);
+    }
+    40% {
+        background:linear-gradient(205deg, #178e0b, #292497);
+    }
+    45% {
+        background:linear-gradient(225deg, #178e0b, #292497);
+    }
+    50% {
+        background:linear-gradient(245deg, #178e0b, #292497);
+    }
+    56% {
+        background:linear-gradient(265deg, #178e0b, #292497);
+    }
+    60% {
+        background:linear-gradient(285deg, #178e0b, #292497);
+    }
+    60% {
+        background:linear-gradient(305deg, #178e0b, #292497);
+    }
+    65% {
+        background:linear-gradient(325deg, #178e0b, #292497);
+    }
+    70% {
+        background:linear-gradient(345deg, #178e0b, #292497);
+    }
+    75% {
+        background:linear-gradient(360deg, #178e0b, #292497);
+    }
+    90% {
+        background:linear-gradient(5deg, #178e0b, #292497);
+    }
+    100% {
+        background:linear-gradient(25deg, #178e0b, #292497);
+    }
+  }
+
+
 #time_Timeline {
     justify-content: flex;
     width: 100%;
@@ -5253,6 +5315,10 @@ a img {
     position: relative;
     align-content: center;
     background-image: linear-gradient(45deg, #178e0b, #292497);
+    animation: colorchanges 100s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
   }
   
   .time_user-details h1 {
