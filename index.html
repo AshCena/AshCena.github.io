@@ -47,6 +47,9 @@
           <a aria-label="Send Email" href="mailto:atishkum@buffalo.edu" target="_blank"
             ><i class="icon fa fa-envelope"></i
           ></a>
+          <a aria-label="My Portfolio Doc" target="_blank" href="https://buffalo.box.com/s/dbgdybuur0akgb43j0menylrhizdhbeu" target="_blank"
+          ><i class="icon fa fa-briefcase"></i
+        ></a>
         </div>
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
@@ -160,6 +163,99 @@
         </div>
       </div>
     </section>
+
+    <!--TimeLine-->
+    <section id="time_Timeline">
+      <div class="time_user-details">
+        <h1>My Journey</h1>
+      </div>
+      <div class="time_line">
+        <div class="time_experience">
+          <img class="time_timelineimg" alt="University at Buffalo" src="./assets/img/jpg/ub.png"/>
+          <div class="time_experience-details">
+            <p class="time_role">University at Buffalo</p>
+            <p class="time_description">MS. Computer Science and Engineering, <span>Expected May 2024</span></p>
+          </div>
+        </div>
+        <div class="time_experience">
+          <img class="time_timelineimg" alt="Disney Star" src="./assets/img/jpg/Disney.png"/>
+          <div class="time_experience-details">
+            <p class="time_role">Disney Star</p>
+            <p class="time_description">Senior Software Development Engineer, <span>Jul 2019 - Jan 2023</span></p>
+          </div>
+        </div>
+        <div class="time_experience">
+          <img class="time_timelineimg" alt="Goodera" src="./assets/img/jpg/goodera.png"/>
+          <div class="time_experience-details">
+            <p class="time_role">Goodera</p>
+            <p class="time_description">Software Intern, <span>Jul 2018 - Dec 2018</span></p>
+          </div>
+        </div>
+        <div class="time_experience">
+          <img class="time_timelineimg" alt="BITS Pilani" src="./assets/img/jpg/bitspilani.png"/>
+          <div class="time_experience-details">
+            <p class="time_role">BITS Pilani</p>
+            <p class="time_description">BE(Hons.), Electrical and Electronics, <span>Graduated May 2019</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Experience Section -->
+
+      <section id="exp_work_experience">
+        <div class="exp_user-details">
+          <h1>Work Experience</h1>
+        </div>
+        <div class="exp_expsec">
+    
+          <!-- Graduate Student Assistant Experience -->
+          <div class="exp_experience">
+            <p class="exp_role">Graduate Student Assistant @University at Buffalo</p>
+            <div>
+              <p class="exp_date">Jan 2024 - Present</p>
+              <p class="exp_description">As a Graduate Student Assistant at the Blockchain ThinkLab, I'm working with the director of the Blockchain ThinkLab in the development of an innovative specialization course on Decentralized Finance on the cousera platform. My role involves not just assistance in course creation but also the technical design and deployment of custom autograders for course projects on Coursera, enhancing the learning experience for students worldwide and paving the way for cutting-edge online education in blockchain technology.</p>
+          </div>
+        </div>
+          <!-- Grader Experience -->
+          <div class="exp_experience">
+            <p class="exp_role">Grader @University at Buffalo</p>
+            <div>
+            <p class="exp_date">Aug 2023 - Dec 2023</p>
+            <p class="exp_description">As an Algorithm Course Grader, I play a pivotal role in guiding students through their coursework, clarifying doubts, and providing in-depth support for homework and assignments. My responsibilities extend to meticulously grading and assigning marks for their work, including exams. This engagement not only reinforces students' learning but also positively impacts their academic journey, fostering a deeper understanding and mastery of algorithms.</p>
+          </div>
+        </div>
+          <!-- Senior Software Development Engineer Experience -->
+          <div class="exp_experience">
+            <p class="exp_role">Senior Software Development Engineer @Disney Star (The Walt Disney Company)</p>
+            <div>
+            <p class="exp_date">Jul 2019 - Jan 2023</p>
+            <p class="exp_description">Viewership Analytics Dashboardc<br></br>
+              I orchestrated complex data workflows using Airflow and Spark, transforming CSVs into optimized formats for Postgres and S3. I advanced API integration, built a Redis notification system, and linked Slack with Airflow for instant alerts. Innovatively, I developed a distributed logging system with SQS and AWS Lambda, enhancing query optimization. I spearheaded a major migration to Google Big Query, containerized applications for EKS, and designed GKE pod autoscalers, significantly boosting performance and scalability. My role was pivotal in leveraging data to drive strategic decisions and foster a culture of innovation.
+            </p>
+          </div>
+          </div>
+    
+          <!-- Software Engineer Experience -->
+          <div class="exp_experience">
+            <p class="exp_role">Data Engineer @Disney Star (The Walt Disney Company)r</p>
+            <div>
+            <p class="exp_date">Jul 2019 - Jan 2022</p>
+            <p class="exp_description"><span>Studying User watch pattern – Huxley</span><br></br>
+              In this initiative, I architected a Chalice-based API to streamline data retrieval into S3, forming the backbone of a sophisticated data pipeline. This pipeline was instrumental in sessionizing (creating sessions) user data by interpreting channel switches and viewing patterns, which, in turn, yielded deep insights into audience engagement with shows and characters. The resulting analytics were pivotal for distributors to pinpoint and act upon weaker market performances, thereby significantly boosting market reach and show penetration.
+            </p>
+          </div>
+        </div>
+          <!-- Software Intern Experience -->
+          <div class="exp_experience">
+            <p class="exp_role">Software Intern @Goodera</p>
+            <div>
+            <p class="exp_date">Jul 2018 - Dec 2018</p>
+            <p class="exp_description">At Goodera, I specialized in crafting interactive dashboards using a stack of HTML, CSS, JavaScript, and React.js. My innovations included an autosave feature that seamlessly converted dashboard data into PDFs and uploaded them to S3 for storage. Additionally, I developed dynamic, persistent 'working sheets' allowing users to save their work and resume effortlessly at their convenience, enhancing user productivity and experience. </p>
+          </div>
+        </div>
+        </div>
+      </section>
 
     <!-- Projects Section -->
     <section id="projects">
@@ -369,12 +465,17 @@
             &nbsp;
           </div>
           <p style="text-align: justify">
-            Designed and developed, the a text chat application based on socket programming in C++.
+            I developed a text chat application using C++ that harnesses the power of socket programming to enable real-time communication. This comprehensive application allowed users to execute a variety of commands such as LOGIN, LOGOUT, SEND, BROADCAST, BLOCK, and UNBLOCK, enhancing user interaction within the network. Each command was meticulously implemented to handle various network scenarios and exceptions, ensuring robust and reliable client-server communication.
           </p>
           <!-- <a class="project-link" target="_blank" href="https://docs.google.com/presentation/d/1pamg9p5A_eZ_gwfOyWP5kyCoC7xy1cKvoweQxxht2nM/edit?usp=sharing">
             Check it out!
           </a> -->
         </div>
+      </div>
+
+      <div style="align-self: center; background-image: linear-gradient(45deg, black, blue);color: white;">
+        To see more projects and its details about above projects, have a look at my portfolio <a aria-label="My Portfolio Doc" target="_blank" href="https://buffalo.box.com/s/dbgdybuur0akgb43j0menylrhizdhbeu" target="_blank"
+        style="color: white;">here! </a>
       </div>
 
     </section>
