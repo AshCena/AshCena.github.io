@@ -4820,6 +4820,35 @@ a img {
     border: 0
 }
 
+@keyframes colorchange {
+    0% {
+      background:linear-gradient(to right, #0d0e10, #393267);
+    }
+    14% {
+        background: linear-gradient(to right, #0d0e10, #510606);
+    }
+    28% {
+        background: linear-gradient(to right, #0d0e10, #094506);
+    }
+    42% {
+        background: linear-gradient(to right, #0d0e10, #3f4406);
+    }
+    56% {
+        background: linear-gradient(to right, #0d0e10, #150455);
+    }
+    70% {
+        background: linear-gradient(to right, #0d0e10, #640744);
+    }
+    84% {
+        background: linear-gradient(to right, #0d0e10, #5c2a02);
+    }
+    100% {
+        background: linear-gradient(to right, #0d0e10, #393267);
+    }
+  }
+
+
+
 #particles-js {
     background: gray;
     /* fallback for old browsers */
@@ -4827,6 +4856,11 @@ a img {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0d0e10, #393267);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    animation: colorchange 120s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
 
     display: flex;
     vertical-align: bottom;
@@ -5277,3 +5311,4 @@ a img {
     }
   }
   
+
